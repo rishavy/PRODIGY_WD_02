@@ -4,37 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stopwwatch</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/stopwatch-3701359-3089846.png?f=webp">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer></script>
-</head>
+    
+    <title>Stop-Watch</title>
 
+    <link rel="stylesheet" href="./styles.css">
+</head>
 <body>
     <div class="container">
         <div class="watch">
             <div class="outer-circle">
                 <div class="inner-circle">
-                    <!-- <span class="hrs">00 :</span> -->
-                    <span class="min">00 :</span>
-                    <span class="sec"> 00 :</span>
-                    <span class="msec"> 00</span>
+                    <span class="text min">00 :</span>
+                    <span class="text sec">&nbsp;00 :</span>
+                    <span class="text msec">&nbsp;00</span>
                 </div>
             </div>
         </div>
-    <!-- </div> -->
+    <!-- Buttons -->
         <div class="buttons">
             <button class="resetbtn btn visibility">Reset</button>
             <button class="playbtn btn">Start</button>
             <button class="lapbtn btn visibility">Lap</button>
         </div>
         <ul class="laps">
+            <button class="clearbtn laptime">Clear</button>
         </ul>
-        <button class="clearbtn laptime">Clear</button>
     </div>
+    <script src="./script.js" defer></script>
 </body>
-
 </html>
