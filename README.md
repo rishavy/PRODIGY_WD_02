@@ -1,4 +1,4 @@
-# Stopwatch
+# Stopwatch <img height="30px" weight="30px" src="https://cdn.iconscout.com/icon/premium/png-256-thumb/stopwatch-3701359-3089846.png?f=webp" />
 
 Crafted a stopwatch using HTML, CSS, and JavaScript. Now, you can effortlessly manage time—start, pause, reset, and even track lap times!
 
